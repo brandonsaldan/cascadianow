@@ -1,0 +1,116 @@
+﻿focus_tree = {
+	id = cascadian_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CAS
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+focus = {
+	id = CAS_rally_the_workers
+	icon = GFX_goal_rally_the_workers
+	x = 3
+	y = 5
+	#relative_position_id = AST_empower_the_workers
+
+	available = {
+		NOT = { is_in_faction_with = ENG }
+		NOT = { is_in_faction_with = GER }
+		NOT = { is_in_faction_with = SOV }
+	}
+	bypass = {
+	}
+
+	cost = 10
+	#prerequisite = { focus = AST_workers_paradise }
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = no
+
+	completion_reward = {
+		add_political_power = 100
+		add_national_unity = 10
+	}
+	ai_will_do = {
+		}
+	}
+
+	focus = {
+		id = CAS_red_roses
+		icon = GFX_goal_red_roses
+		x = -3
+		y = 1
+		relative_position_id = CAS_rally_the_workers
+
+		available = {
+			NOT = { is_in_faction_with = ENG }
+			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SOV }
+		}
+		bypass = {
+		}
+
+		cost = 10
+		prerequisite = { focus = CAS_rally_the_workers }
+		mutually_exclusive = { focus = CAS_blood_and_iron }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			add_national_unity = 5
+			add_popularity = {
+				ideology = communism
+				popularity = 0.1
+				}
+		}
+		ai_will_do = {
+			}
+		}
+
+	focus = {
+		id = CAS_blood_and_iron
+		icon = GFX_goal_blood_and_iron
+		x = 3
+		y = 1
+		relative_position_id = CAS_rally_the_workers
+
+		available = {
+			NOT = { is_in_faction_with = ENG }
+			NOT = { is_in_faction_with = GER }
+			NOT = { is_in_faction_with = SOV }
+		}
+		bypass = {
+		}
+
+		cost = 10
+		prerequisite = { focus = CAS_rally_the_workers }
+		mutually_exclusive = { focus = CAS_red_roses }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+			add_national_unity = 5
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+				}
+		}
+		ai_will_do = {
+			}
+		}
+	}		
