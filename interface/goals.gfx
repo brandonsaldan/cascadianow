@@ -1,8 +1,12 @@
 spriteTypes = {	
+
+# 
 	SpriteType = {
 	name = "GFX_goal_rally_the_workers"
 	texturefile = "gfx/interface/goals/focus_cas_rally_the_workers.dds"			
 	}	
+
+# RED ROSES ----------------------------------------------------------------------
 
 	SpriteType = {
 	name = "GFX_goal_red_roses"
@@ -10,9 +14,163 @@ spriteTypes = {
 	}	
 
 	SpriteType = {
+	name = "GFX_goal_democratic_socialism"
+	texturefile = "gfx/interface/goals/focus_cas_democratic_socialism.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_tax_the_rich"
+	texturefile = "gfx/interface/goals/focus_cas_tax_the_rich.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_raise_the_budget"
+	texturefile = "gfx/interface/goals/focus_cas_raise_the_budget.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_align_with_ussr"
+	texturefile = "gfx/interface/goals/focus_cas_align_with_ussr.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_communist_education"
+	texturefile = "gfx/interface/goals/focus_cas_communist_education.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_military_schools"
+	texturefile = "gfx/interface/goals/focus_cas_military_schools.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_anti_fascist_pact"
+	texturefile = "gfx/interface/goals/focus_cas_anti_fascist_pact.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_communist_guarantees"
+	texturefile = "gfx/interface/goals/focus_cas_communist_guarantees.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_communist_expansion"
+	texturefile = "gfx/interface/goals/focus_cas_communist_expansion.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_join_allies"
+	texturefile = "gfx/interface/goals/focus_cas_join_allies.dds"			
+	}	
+
+# BLOOD AND IRON ----------------------------------------------------------------------
+
+	SpriteType = {
 	name = "GFX_goal_blood_and_iron"
 	texturefile = "gfx/interface/goals/focus_cas_blood_and_iron.dds"			
 	}	
+
+	SpriteType = {
+	name = "GFX_goal_align_with_germany"
+	texturefile = "gfx/interface/goals/focus_cas_align_with_germany.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_align_with_japan"
+	texturefile = "gfx/interface/goals/focus_cas_align_with_japan.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_align_with_italy"
+	texturefile = "gfx/interface/goals/focus_cas_align_with_italy.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_anti_communist_pact"
+	texturefile = "gfx/interface/goals/focus_cas_anti_communist_pact.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_hokushin_ron"
+	texturefile = "gfx/interface/goals/focus_cas_hokushin_ron.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_spazio_vitale"
+	texturefile = "gfx/interface/goals/focus_cas_spazio_vitale.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_lebensraum"
+	texturefile = "gfx/interface/goals/focus_cas_lebensraum.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_amau_doctrine"
+	texturefile = "gfx/interface/goals/focus_cas_amau_doctrine.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_acerbo_law"
+	texturefile = "gfx/interface/goals/focus_cas_acerbo_law.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_cascadian_nationalism"
+	texturefile = "gfx/interface/goals/focus_cas_cascadian_nationalism.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_greater_cascadia"
+	texturefile = "gfx/interface/goals/focus_greater_cascadia.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_alaskas_bleeding"
+	texturefile = "gfx/interface/goals/focus_cas_alaskas_bleeding.dds"			
+	}	
+
+# MAGNA CARTA ----------------------------------------------------------------------
+
+	SpriteType = {
+	name = "GFX_goal_magna_carta"
+	texturefile = "gfx/interface/goals/focus_cas_magna_carta.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_align_with_uk"
+	texturefile = "gfx/interface/goals/focus_cas_align_with_uk.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_god_save_the_king"
+	texturefile = "gfx/interface/goals/focus_cas_god_save_the_king.dds"			
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_never_surrender"
+	texturefile = "gfx/interface/goals/focus_cas_never_surrender.dds"		
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_rule_cascadia"
+	texturefile = "gfx/interface/goals/focus_cas_rule_cascadia.dds"		
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_sanacja"
+	texturefile = "gfx/interface/goals/focus_cas_sanacja.dds"		
+	}	
+
+	SpriteType = {
+	name = "GFX_goal_claims_in_middle_east"
+	texturefile = "gfx/interface/goals/focus_cas_claims_in_middle_east.dds"		
+	}
+
+	SpriteType = {
+	name = "GFX_goal_claims_in_south_america"
+	texturefile = "gfx/interface/goals/focus_cas_claims_in_south_america.dds"		
+	}
 
 	#### Generic continuous goal icons
 

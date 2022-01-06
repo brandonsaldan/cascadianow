@@ -9,7 +9,7 @@ state={
 	history={
 		owner = CAS
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
 		}
 		add_core_of = CAS
 	}
@@ -18,4 +18,6 @@ state={
 		7259 1214 12259 12272 1420 
 	}
 	
+
+	local_supplies=0.0 
 }

@@ -1,0 +1,28 @@
+
+state={
+	id=837
+	name="STATE_837"
+	manpower = 953785
+	
+	state_category = town
+
+	history={
+		owner = CAS
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 1
+			air_base = 6
+		}
+		add_core_of = CAS
+		victory_points = {
+			3513 1 
+		}
+
+	}
+
+	provinces={
+		12183 7865 12553 4826
+	}
+
+	local_supplies=0.0 
+}

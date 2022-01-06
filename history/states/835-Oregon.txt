@@ -1,0 +1,35 @@
+
+state={
+	id=835
+	name="STATE_835"
+	manpower = 1563395
+	
+	state_category = large_town
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3 #was: 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 5
+			7315 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = USA
+		victory_points = {
+			1690 1 
+		}
+		victory_points = {
+			7315 10 
+		}
+	}
+
+	provinces={
+		4347 1414 3471 10151 4274 7398 10625 10305 7721
+	}
+
+	local_supplies=0.0 
+}
